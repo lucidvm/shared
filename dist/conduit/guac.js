@@ -18,6 +18,9 @@ function bonk(prim) {
                 return prim.toString("base64");
             }
         default:
+            if (prim == null) {
+                return null;
+            }
             console.error(prim);
             throw new Error("i dont know how to bonk that!");
     }
