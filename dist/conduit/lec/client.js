@@ -30,6 +30,9 @@ class LECClient extends events_1.EventEmitter {
             this.emit("event", ...stmts[0]);
         });
     }
+    disconnect() {
+        this.ws.close();
+    }
     send(...args) {
         if (this.ws.readyState !== ws_1.WebSocket.OPEN) {
             return;

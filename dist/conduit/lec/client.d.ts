@@ -8,5 +8,6 @@ export declare class LECClient extends EventEmitter {
     private closing;
     constructor(codebook?: string[]);
     connect(path: string): void;
+    disconnect(): void;
     send(...args: wireprim[]): void;
 }

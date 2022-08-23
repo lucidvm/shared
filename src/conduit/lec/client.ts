@@ -41,6 +41,10 @@ export class LECClient extends EventEmitter {
         });
     }
 
+    disconnect() {
+        this.ws.close();
+    }
+
     send(...args: wireprim[]) {
         if (this.ws.readyState !== WebSocket.OPEN) {
             return;
