@@ -17,4 +17,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./msgpack"), exports);
 __exportStar(require("./conduit"), exports);
 __exportStar(require("./codebooks"), exports);
+__exportStar(require("./capabilities"), exports);
 //# sourceMappingURL=index.js.map
