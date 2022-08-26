@@ -29,11 +29,9 @@ export namespace Codebooks {
         "chat",
         "admin",
 
-        // extension level V1
-        "extend",
-        "upgrade",
+        // extensions
+        "cap",
         "auth",
-        "strip",
         "instance"
     ];
 

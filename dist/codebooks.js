@@ -24,10 +24,8 @@ var Codebooks;
         "remuser",
         "chat",
         "admin",
-        "extend",
-        "upgrade",
+        "cap",
         "auth",
-        "strip",
         "instance"
     ];
     Codebooks.LRMP = [
