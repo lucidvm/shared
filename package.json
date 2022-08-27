@@ -1,6 +1,6 @@
 {
   "name": "@lucidvm/shared",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "LucidVM Shared Code",
   "main": "dist/index.js",
   "author": "dither",
