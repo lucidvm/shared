@@ -1,4 +1,4 @@
-import { serialize, deserialize } from "../../msgpack";
+import { serialize, deserialize } from "@ygoe/msgpack";
 
 import type { wireprim } from "../types";
 import type { EventConduit } from "../base";

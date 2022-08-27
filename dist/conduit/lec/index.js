@@ -15,7 +15,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LECConduit = void 0;
-const msgpack_1 = require("../../msgpack");
+const msgpack_1 = require("@ygoe/msgpack");
 class LECConduit {
     constructor(codebook = []) {
         this.reverse = {};
